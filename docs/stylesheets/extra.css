@@ -1,0 +1,28 @@
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #2134f6;
+}
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #2134f6;
+}
+
+.md-content h2 {
+    border-bottom: var(--md-primary-fg-color) 2px;
+    border-bottom-style: double;
+}
+
+.md-content h3 {
+    border-bottom: gray 1px;
+    border-bottom-style: dashed;
+}
+
+dt {
+    font-size: 1.15em;
+    font-weight: bold;
+    font-family: monospace, serif;
+    color: #996666;
+  }
+  
+  dd {
+    font-size: 0.9em; 
+  }

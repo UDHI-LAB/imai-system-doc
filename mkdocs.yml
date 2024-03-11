@@ -1,0 +1,18 @@
+site_name: imai-system 仕様書
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.footer
+    - toc.integrate
+  font:
+    text: Kosugi Maru
+  markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - def_list
+  extra_css:
+    - stylesheets/extra.css
